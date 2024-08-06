@@ -1,0 +1,100 @@
+html, body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.colors{
+    display: flex;
+}
+
+.colors > * {
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    width: 100px;
+}
+
+#color1{
+    background-color: #F55A5A;
+}
+
+#color2{
+    background-color: #2B283A
+}
+
+#color3{
+    background-color: #FBF3AB;
+}
+
+#color4{
+    background-color: #AAD1B6
+}
+
+#color5{
+    background-color: #A626D3;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#input-color {
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#input-color:hover {
+    background-color: #f0f0f0;
+}
+
+
+#types-of-colors {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#types-of-colors:hover {
+    background-color: #f0f0f0;
+}
+
+#get-color {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#get-color:hover {
+    background-color: #f0f0f0;
+}
+
+.color-codes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.color-codes > * {
+    background-color: #ffffff;
+    width: 100px;
+    margin-top: 5px;
+    font-size: 10px;
+}
